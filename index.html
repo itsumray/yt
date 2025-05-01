@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Search Popup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Search YouTube..." />
+    <button onclick="searchYouTube()">Search</button>
+  </div>
+
+  <div id="popup" class="popup hidden">
+    <div id="video-results" class="video-results"></div>
+    <button id="load-more" onclick="loadMore()">Show More</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
